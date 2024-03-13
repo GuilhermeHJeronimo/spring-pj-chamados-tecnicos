@@ -18,7 +18,7 @@ import java.util.Locale;
 @Table(name = "TB_ESPECIALIDADE")
 public class Especialidade {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SQ_ENDERECO")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SQ_ESPECIALIDADE")
     @SequenceGenerator(
             name = "SQ_ESPECIALIDADE",
             sequenceName = "SQ_ESPECIALIDADE",

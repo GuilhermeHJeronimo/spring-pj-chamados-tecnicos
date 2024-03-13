@@ -18,7 +18,7 @@ import java.time.LocalDateTime;
 public class Ocorrencia {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SQ_ENDERECO")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SQ_OCORRENCIA")
     @SequenceGenerator(
             name = "SQ_OCORRENCIA",
             sequenceName = "SQ_OCORRENCIA",

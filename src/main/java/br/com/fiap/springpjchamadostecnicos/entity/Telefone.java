@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "TB_TELEFONE")
 public class Telefone {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SQ_ENDERECO")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SQ_TELEFONE")
     @SequenceGenerator(
             name = "SQ_TELEFONE",
             sequenceName = "SQ_TELEFONE",

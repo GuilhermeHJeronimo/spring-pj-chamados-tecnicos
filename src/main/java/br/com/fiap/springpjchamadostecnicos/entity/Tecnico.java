@@ -18,7 +18,7 @@ import java.util.Set;
 public class Tecnico {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SQ_ENDERECO")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SQ_TECNICO")
     @SequenceGenerator(
             name = "SQ_TECNICO",
             sequenceName = "SQ_TECNICO",
